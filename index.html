@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Clínica Vida Saudável</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background: #007bff;
+            color: white;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+        }
+        .team img, .services img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 10px;
+            margin: 10px;
+        }
+        form {
+            background: #0000007f;
+            padding: 20px;
+            border-radius: 20px;
+            max-width: 300px;
+            margin: auto;
+        }
+        input, select {
+            width: 95%;
+            padding: 5px;
+            margin: 5px 0;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            background: #007bff;
+            color: white;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Clínica Vida Saudável</h1>
+        <p>Seu bem-estar é a nossa prioridade</p>
+    </header>
+    
+    <div class="container">
+        <h2>Nossos Serviços:</h2>
+        <div class="services">
+            <h3>Consulta Médica</h3>
+            <p>Atendimento médico especializado para cuidar da sua saúde.</p>
+            <img src="imagens/imagem1.jpg" alt="Consulta Médica">
+            <h3>Exames de Imagem</h3>
+            <p>Exames de imagem com tecnologia avançada.</p>
+            <img src="imagens/imagem2.jpg" alt="Exames de Imagem">
+            <h3>Exames no Laboratório</h3>
+            <p>Exames em nosso laboratório avançado.</p>
+            <img src="imagens/imagem3.jpg" alt="Exames no Laboratório">
+        </div>
+        
+        <h2>Nossa Equipe de Profissionais:</h2>
+        <div class="team">
+            <img src="imagens/medico1.png" alt="Dr. Marcos dos Santos - Cardiologista">
+            <p>Dr. Marcos dos Santos - Cardiologista</p>
+            <img src="imagens/medico3.png" alt="Dra. Ana Camargo - Pediatra">
+            <p>Dra. Ana Camargo - Pediatra</p>
+            <img src="imagens/medico2.png" alt="Dr. Lucas Barbosa - Nutricionista">
+            <p>Dr. Lucas Barbosa - Nutricionista</p>
+        </div>
+        
+        <h2>Saiba Mais</h2>
+        <p>Se inscreva em nossa lista de e-mail para saber mais sobre nós e agendar uma consulta.</p>
+        <form>
+            <label>Nome:</label>
+            <input type="text" required>
+            
+            <label>E-mail:</label>
+            <input type="email" required>
+            
+            <label>Cidade:</label>
+            <input type="text" required>
+            
+            <label>Estado:</label>
+            <select>
+                <option>Selecione</option>
+                <option>DF</option>
+                <option>SP</option>
+                <option>RJ</option>
+                <option>MG</option>
+            </select>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <footer>
+        <h3>Fale Conosco!</h3>
+        <p>Telefone: (61)91234-5678</p>
+        <p>E-mail: clinicasaude@gmail.com</p>
+    </footer>
+</body>
+</html>
